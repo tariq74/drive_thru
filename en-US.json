@@ -1,0 +1,69 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "drive thru assistant",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "Sample",
+          "slots": [
+            {
+              "name": "sentence",
+              "type": "Text"
+            }
+          ],
+          "samples": [
+            "{sentence} "
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "any thing that i would say"
+              }
+            },
+            {
+              "name": {
+                "value": "4092"
+              }
+            },
+            {
+              "name": {
+                "value": "i have this"
+              }
+            },
+            {
+              "name": {
+                "value": "good morning"
+              }
+            }
+          ],
+          "name": "Text"
+        }
+      ]
+    }
+  },
+  "version": "2"
+}
